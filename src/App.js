@@ -1,10 +1,13 @@
 
-import Exp2 from './exp2';
+import DataFetching from './datafetching';
+import LocalStore from './localstore';
+
+
 function App() {
   return (
     <div>
    
-   <Exp2/>
+   <LocalStore/>
    </div>
   );
 }
